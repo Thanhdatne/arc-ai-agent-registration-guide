@@ -124,4 +124,7 @@ Validator Wallet: Used to record the agent's reputation.
 
 Both are SCA (Smart Contract Account) on ARC-TESTNET.
 
+🆘 Facing Issues?
+If you encounter errors during setup, please refer to our detailed TROUBLESHOOTING.md guide. I have documented every common error from Entity Secret fails to Gas issues.
+
 After successful execution, you will have two wallet addresses. Copy them to use in the next step.
