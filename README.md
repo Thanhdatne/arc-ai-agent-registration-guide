@@ -26,7 +26,8 @@ graph LR
 ## 🚀 Getting Started
 **1. Installation**
 
-```mkdir erc8004-quickstart
+```
+mkdir erc8004-quickstart
 cd erc8004-quickstart
 npm init -y
 npm pkg set type=module
