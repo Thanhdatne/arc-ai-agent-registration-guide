@@ -54,7 +54,7 @@ npx tsc --init
   }
 }
 ```
-**3. An API key created in the Console: Keys → Create a key → API key → Standard Key**
+**3. An API key created in the [console.circle.com](https://console.circle.com/): Keys → Create a key → API key → Standard Key**
 
 **4. Register Your Entity Secret**
 
@@ -81,8 +81,8 @@ import { registerEntitySecretCiphertext } from "@circle-fin/developer-controlled
 
 const response = await registerEntitySecretCiphertext({
   apiKey:
-    "****_API_KEY:5bef73***************d000:89a4aa************************b09", // Change your API key
-  entitySecret: "ecd4d5e33b8e***************************************c546", // change your entitySecret
+    "CHANGE YOUR_API_KEY",
+  entitySecret: "CHANGE YOUR ENTITYSECRET",
   recoveryFileDownloadPath: "",
 });
 console.log(response.data?.recoveryFile);
@@ -103,14 +103,25 @@ touch .env
 
 **Copy the Entity Secret (64 hexadecimal characters) and paste it into the `.env` file:**
 
-`CIRCLE_API_KEY=your_actual_api_key_here
-CIRCLE_ENTITY_SECRET=paste_entity_secret_here`
+```
+CIRCLE_API_KEY=your_actual_api_key_here
+CIRCLE_ENTITY_SECRET=paste_entity_secret_here
+```
 
-**6. Create developer-controlled wallets**
+**6. Create a Developer-Controlled Wallet (Owner & Validator)**
 
-**After obtaining the `API Key` and `Entity Secret` in the `.env` file, create the `index.ts` file**
+The repository already contains the `index.ts` file - this is the main file for creating two programmable wallets on the Arc Testnet.
 
-**Edit with the following content in `index.ts`**
+Create the `index.ts` file and paste all the code into it.
+
+**Important Note:**
+
+**Ensure your .env has the correct two variables:**
+
+```
+CIRCLE_API_KEY=your_actual_api_key
+CIRCLE_ENTITY_SECRET=your_64_hex_entity_secret
+```
 
 Run
 ```
