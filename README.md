@@ -1,5 +1,5 @@
-# 🤖 Arc AI Agent Registration Kit
-> **A comprehensive developer kit for registering AI Agents on Arc Network. Featuring on-chain identity implementation, programmable wallet integration, and a detailed troubleshooting guide for the Agentic Economy.**
+# 🤖 Arc AI Agent Registration guide
+> **The ultimate step-by-step guide to registering AI Agents on Arc Network. Features full on-chain identity (ERC-8004) implementation, programmable wallet setup via Circle SDK, and a deep-dive troubleshooting manual**
 
 ## 🧠 Why Agentic Identity?
 Most AI Agents today are "trapped" in sandboxed environments, unable to interact with the real-world economy. By leveraging **Arc Network’s Identity Registry**, we are moving from **Passive Bots** to **Autonomous Financial Entities**.
