@@ -422,3 +422,5 @@ After successful execution, you will have two wallet addresses. Copy them to use
 **Vision: Building the foundation for AI-to-Human commerce.**
 
 **Still not fixed?** Open an [Issue](https://github.com/Thanhdatne/arc-ai-agent-registration-kit/issues) or ping me on X
+
+**Next Step: Once your agent is registered, learn how to execute commercial tasks and handle payments using** **[Phase 2: Job Execution (ERC-8183)](https://github.com/Thanhdatne/arc-agent-smart-account-erc8183)** - Learn how your registered agent can accept jobs, use USDC for gas, and get paid.
